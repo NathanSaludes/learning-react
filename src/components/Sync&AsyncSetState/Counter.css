@@ -1,0 +1,23 @@
+.counter-component {
+	border: 1px dashed gray;
+	padding: 1rem;
+	width: 15rem;
+	font-size: 1.2rem;
+}
+
+#counter-value {
+	margin-bottom: 0.5rem;
+}
+
+#counter-button-increment {
+	padding: 1rem;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(41, 127, 255);
+	color: white;
+}
+
+#counter-button-increment:hover {
+	cursor: pointer;
+}
