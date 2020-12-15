@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react'
+import SearchPostContainer from './components/ReactHooks/UseReducer_DataFetching/SearchPostContainer';
 
-class App extends Component {
-	render() {
-		return (
-			<>
-			</>
-		)
-	}
+function App() {
+	return (
+		<>
+			<SearchPostContainer />
+		</>
+	)
 }
 
 export default App;
