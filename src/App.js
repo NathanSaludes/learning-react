@@ -1,10 +1,11 @@
 import React from 'react'
-import HookTimer from './components/ReactHooks/UseRef/UseRef_HookTimer'
 
 function App() {
 	return (
 		<>
-			<HookTimer />
+			<div className="component">
+				🎉 <span style={{ color: 'cyan' }}>Achievement Unlocked:</span> React Tutorial Completed! 🎉
+			</div>
 		</>
 	)
 }
