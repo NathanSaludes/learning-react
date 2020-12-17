@@ -1,10 +1,10 @@
 import React from 'react'
-import SearchPostContainer from './components/ReactHooks/UseReducer_DataFetching/SearchPostContainer';
+import HookTimer from './components/ReactHooks/UseRef/UseRef_HookTimer'
 
 function App() {
 	return (
 		<>
-			<SearchPostContainer />
+			<HookTimer />
 		</>
 	)
 }
